@@ -1,0 +1,3 @@
+# Collection Types
+watchFolder: /path/to/watch/dir
+outputFolder: /path/to/output/dir
