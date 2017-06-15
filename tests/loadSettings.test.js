@@ -8,8 +8,8 @@ test('It should not crash', () => {
 test('It should have the default settings', () => {
   expect(settings).toMatchObject(
     Map({
-      watchFolder: '/tests/data/watch',
-      outputFolder: '/tests/data/output'
+      watchDirectory: '/tests/data/watch',
+      outputDirectory: '/tests/data/output'
     })
   );
 });
